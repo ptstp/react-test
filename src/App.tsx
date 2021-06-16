@@ -4,16 +4,26 @@ import logo from './logo.svg';
 import './App.css';
 import { Header } from './components/header';
 import { useRoutes } from './router';
+import { useAuth } from './context/AuthContext';
+import { AuthContext } from './context/AuthContext';
 
 function App() {
   const routes = useRoutes();
+  const {isAuth, login, username, password} = useAuth();
   return (
     <Router>
-    <div className="App">  
-      <Header/>
-      {routes}
-      <p>HELLO WORLD~</p>
-    </div>
+      <AuthContext.Provider value={{
+          isAuth: isAuth, 
+          login: login,
+          username: username,
+          password: password
+      }}>
+      <div className="App">  
+        <Header/>
+        {routes}
+        <p>HELLO WORLD~</p>
+      </div>
+    </AuthContext.Provider>
     </Router>
   );
 }
