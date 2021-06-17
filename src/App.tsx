@@ -9,12 +9,13 @@ import { AuthContext } from './context/AuthContext';
 
 function App() {
   const routes = useRoutes();
-  const {isAuth, login, username, password} = useAuth();
+  const {isAuth, login, logout, username, password} = useAuth();
   return (
     <Router>
       <AuthContext.Provider value={{
           isAuth: isAuth, 
           login: login,
+          logout: logout,
           username: username,
           password: password
       }}>
