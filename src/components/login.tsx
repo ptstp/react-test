@@ -16,7 +16,7 @@ export const Login = () => {
 
   const clickHandler = () => {
     if (login !== 'admin' || pass !== '12345' ){
-      alert('FALL!!FUCKYOU!TRYAGAIN!')
+      alert('FALL!!FUCKYOU!TRYAGAIN!!')
       return
 
     } 
