@@ -1,0 +1,91 @@
+{
+    "status": 200,
+    "message": "OK",
+    "data": [
+        {
+            "id": 1,
+            "login": "test",
+            "password": "test"
+        },
+        {
+            "id": 2,
+            "login": "test",
+            "password": "test"
+        },
+        {
+            "id": 3,
+            "login": "adsdsa",
+            "password": "asdasdasd"
+        },
+        {
+            "id": 4,
+            "login": "zalupa",
+            "password": "meniaebut20negrovyauchilkaegora"
+        },
+        {
+            "id": 5,
+            "login": "",
+            "password": ""
+        },
+        {
+            "id": 6,
+            "login": "",
+            "password": ""
+        },
+        {
+            "id": 7,
+            "login": "",
+            "password": ""
+        },
+        {
+            "id": 8,
+            "login": "",
+            "password": ""
+        },
+        {
+            "id": 9,
+            "login": "",
+            "password": ""
+        },
+        {
+            "id": 10,
+            "login": "hjv",
+            "password": "hjv"
+        },
+        {
+            "id": 11,
+            "login": "tapolsky",
+            "password": "1234"
+        },
+        {
+            "id": 12,
+            "login": "ыпрыар",
+            "password": "увыур"
+        },
+        {
+            "id": 13,
+            "login": "sa",
+            "password": "admin"
+        },
+        {
+            "id": 14,
+            "login": "укнрырн",
+            "password": "кыеквг"
+        },
+        {
+            "id": 15,
+            "login": "5у4кг",
+            "password": "кы4уг6"
+        },
+        {
+            "id": 16,
+            "login": "",
+            "password": ""
+        },
+        {
+            "id": 17,
+            "login": "Лалада",
+            "password": "Дадада"
+        }
+    ]
+}
