@@ -1,17 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Home } from './components/home';
-import { Login } from './components/login';
-import { News } from './components/news';
-import { Profile } from './components/profile';
+import { Buy } from './components/buy';
+import { About } from './components/about';
+import { Contacts } from './components/contacts';
 
 export const useRoutes = () => {
     return(
         <div>
             <Route exact path="/" component={Home}/>
-            <Route path="/login" component={Login}/>
-            <Route path="/news" component={News}/>
-            <Route path="/profile" component={Profile}/>
+            <Route path="/buy" component={Buy}/>
+            <Route path="/about" component={About}/>
+            <Route path="/contacts" component={Contacts}/>
         </div>
     )
 }

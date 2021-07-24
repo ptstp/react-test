@@ -12,19 +12,18 @@ function App() {
   const {isAuth, login, logout, username, password} = useAuth();
   return (
     <Router>
-      <AuthContext.Provider value={{
+      {/* <AuthContext.Provider value={{
           isAuth: isAuth, 
           login: login,
           logout: logout,
           username: username,
           password: password
-      }}>
-      <div className="App">  
+      }}> */}
+      <div className="App">   
         <Header/>
         {routes}
-        <p>HELLO WORLD~</p>
       </div>
-    </AuthContext.Provider>
+    {/* </AuthContext.Provider> */}
     </Router>
   );
 }
